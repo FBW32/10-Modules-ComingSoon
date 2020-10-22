@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b0b8b9;
+  margin: 4rem 4rem;
+}
+
+.col-1 {
+  background-image: url("../images/image1.svg");
+  height: 54em;
+  width: 50em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  font: 100% "Nunito Sans", sans-serif;
+  color: #b0b8b9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10rem 20rem;
+  list-style-type: none;
+  width: 100%;
+}
+
+ul li {
+  padding: 2em;
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+
+.col-2 {
+  margin: 10rem 10rem;
+  padding-top: 7em;
+  padding-bottom: 0.5em;
+}
+
+.col-2 button {
+  border-radius: 31%;
+  border: none;
+  padding: 1rem;
+}
+
+.col-2 h1 {
+  font: 700 300% "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.col-2 p {
+  font: 300 150% "Nunito Sans", sans-serif;
+  padding-bottom: 1rem;
+}
+
+.col-2 form {
+  padding-bottom: 6em;
+}
+
+.col-2 form p {
+  padding-top: 1.5em;
+  font-size: 1rem;
+}
+
+.col-2 form #submit {
+  border-radius: 21%;
+  border: none;
+  padding: 0.5rem;
+}
+
+.col-2 i {
+  padding-right: 1em;
+}
+/*# sourceMappingURL=main.css.map */
