@@ -1,0 +1,74 @@
+//create a style.css file and than click watch sass on code .
+
+@import "_variable";
+@import "_reset";
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-color;
+    margin: 4rem 4rem;
+}
+
+.col-1 {
+    background-image: url("../images/image1.svg");
+    height: 54em;
+    width: 50em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font: 100% $font-focus;
+    color: $primary-color;
+    align-items: center;
+    margin: 10rem 20rem;
+    list-style-type: none;
+    width: 100%; 
+    li {
+        padding: 2em;
+        font-size: 1.35rem;
+        font-weight: 300;
+    }
+}
+
+.col-2 {
+    margin: 10rem 10rem;
+    padding-top: 7em;
+    padding-bottom: 0.5em;
+    button  {
+        border-radius: 31%;
+        border: none;
+        padding: 1rem;
+    }
+    h1 {
+        font: 700 300% $font-focus ;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+    }
+    p {
+        font: 300 150% $font-focus;
+        padding-bottom: 1rem;
+    }
+    form {
+        padding-bottom: 6em;
+        p { padding-top: 1.5em;
+            font-size: 1rem;
+        }
+        #submit{
+            border-radius: 21%;
+            border: none;
+            padding: 0.5rem;
+        }
+
+    }
+    i{
+        padding-right: 1em;
+
+    }
+}
